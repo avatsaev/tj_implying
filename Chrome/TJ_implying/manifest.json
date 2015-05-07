@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "TJ Implying",
+  "description": "Adds green text citations to tjournal.ru comment section",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "img/icon.png"
+  },
+
+  "icons": {
+    "default_icon": "img/icon.png",
+    "128": "img/icon.png"
+  },
+
+  "content_scripts" : [{
+      "matches" : [ "http://tjournal.ru/*", "https://tjournal.ru/*"],
+      "js" : ["./js/jquery.js", "./js/TJ_implying.js"]
+  }]
+}
