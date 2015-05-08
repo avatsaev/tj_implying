@@ -3,7 +3,7 @@
 
   "name": "TJ Implying",
   "description": "Adds green text citations to tjournal.ru comment section",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "img/icon.png"
