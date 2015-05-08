@@ -16,6 +16,6 @@
 
   "content_scripts" : [{
       "matches" : [ "http://tjournal.ru/*", "https://tjournal.ru/*"],
-      "js" : ["./js/jquery.js", "./js/TJ_implying.js"]
+      "js" : ["./js/TJ_implying.js"]
   }]
 }
